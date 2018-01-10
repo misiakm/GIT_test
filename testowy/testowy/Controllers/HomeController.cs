@@ -11,7 +11,7 @@ namespace testowy.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            return View();
+            return View("abc");
         }
     }
 }
