@@ -11,6 +11,7 @@ namespace testowy.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            ViewBag.abc = "coś sprawdzam";
             return View("abc");
         }
     }
