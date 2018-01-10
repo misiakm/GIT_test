@@ -11,8 +11,13 @@ namespace testowy.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            /*
+                Wybacz Damian ale skasowałem twoje zmiany ;( Wrzucę co to ty napisałeś do komentarza poniżej:
+                    return View();
+            */
             ViewBag.abc = "coś sprawdzam";
             return View("abc");
+
         }
     }
 }
